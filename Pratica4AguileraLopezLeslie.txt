@@ -1,0 +1,26 @@
+---Eliminar Archivos 
+El comando git rm se encarga de eliminar el archivo de tu directorio de trabajo, y además lo añade al área de staged files.
+Git rm 
+El comando git rm solo actúa en la rama actual. La eliminación solo se aplica al directorio de trabajo y a los árboles de índice del entorno de ensayo.
+La diferencia entre este comando y eliminar directamente el archivo, es que si sólo lo eliminas aparecerá en el área de unstaged files.
+
+--- Que es unstaged?
+Archivos Unstaged: entiéndelos como archivos “Tracked pero Unstaged”. Son archivos que viven dentro de Git pero no han sido afectados por el comando git add ni mucho menos por git commit. Git tiene un registro de estos archivos, pero está desactualizado, sus últimas versiones solo están guardadas en el disco duro.
+Creación de una etiqueta
+Las etiquetas son referencias que apuntan a puntos concretos en el historial de Git.
+Generalmente, el etiquetado se usa para capturar un punto en el historial que se utiliza para una publicación de versión marcada (por ejemplo, v1.0.1). Una etiqueta es como una rama que no cambia. A diferencia de las ramas, las etiquetas, tras crearse, no tienen más historial de confirmaciones.
+
+Las etiquetas se pueden Crear, Eliminarlas, Compartirlas, Listadas, etc.
+Listado de etiquetas
+Para elaborar una lista de las etiquetas almacenadas en un repositorio, ejecuta lo siguiente:
+Comando git tag
+
+
+
+ 
+
+Git fork
+El fork que nos permite hacer GitHub es muy similar a lo descrito anteriormente con la ventaja de que en lugar de clonar el repositorio de forma local, podremos crear una copia en remoto del proyecto que queremos y quedara almacenada en nuestra cuenta personal de GitHub
+Cuando haces un fork de un repositorio, se crea un nuevo repositorio en tu cuenta de Github o Bitbucket, con una URL diferente (fork). Acto seguido tienes que hacer un clon de esa copia sobre la que empiezas a trabajar de forma que cuando haces push, estás modificando TU COPIA (fork). El repositorio original sigue intacto.
+El ruso principal es el de permitir a los desarrolladores contribuir a un proyecto de forma segura.
+
