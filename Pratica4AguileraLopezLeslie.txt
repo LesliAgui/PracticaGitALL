@@ -1,4 +1,5 @@
 ---Eliminar Archivos 
+
 El comando git rm se encarga de eliminar el archivo de tu directorio de trabajo, y además lo añade al área de staged files.
 Git rm 
 El comando git rm solo actúa en la rama actual. La eliminación solo se aplica al directorio de trabajo y a los árboles de índice del entorno de ensayo.
